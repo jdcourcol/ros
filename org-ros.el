@@ -52,7 +52,7 @@
       (progn
         (message "Waiting for region selection with mouse...")
         (let ((filename
-               (concat "./"
+               (concat "./img/"
                        (file-name-nondirectory buffer-file-name)
                        "_"
                        (format-time-string "%Y%m%d_%H%M%S")
